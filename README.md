@@ -102,7 +102,7 @@ The system is built on a client-server architecture with a relational database m
 ### Database ERD
 
 
-[Database ERD](./Pictures/ER Diagram.png)
+[Database ERD](./Pictures/ER_Diagram.png)
  
 ### Database Schema
 
