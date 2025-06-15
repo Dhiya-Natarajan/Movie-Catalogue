@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.hero-bg {
+	background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("./hero.png");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	min-height: 100vh;
+	width: 100%;
+}
+
+.shimmer {
+	animation: shimmer 2s infinite linear;
+	background: linear-gradient(to right, #1e1b4b 4%, #3730a3 25%, #1e1b4b 36%);
+	background-size: 1000px 100%;
+  }
+
+@keyframes shimmer {
+	0% {
+		background-position: -1000px 0;
+	}
+	100% {
+		background-position: 1000px 0;
+	}
+}
+
+.error-page--content::before {
+	background: radial-gradient(
+		ellipse at center,
+		rgba(0, 0, 0, 0.5) 0,
+		rgba(0, 0, 0, 0.2) 45%,
+		rgba(0, 0, 0, 0.1) 55%,
+		transparent 70%
+	);
+	bottom: -10vw;
+	content: "";
+	left: 10vw;
+	position: absolute;
+	right: 10vw;
+	top: -10vw;
+	z-index: -1;
+}
+
+::-webkit-scrollbar {
+	width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+	background-color: #6366f1;
+  }
+  
+  ::-webkit-scrollbar-track {
+	background-color: #111827;
+  }
+
+  @keyframes trackingIn {
+	0% {
+	  letter-spacing: -0.5em;
+	  opacity: 0;
+	}
+	100% {
+	  letter-spacing: normal;
+	  opacity: 1;
+	}
+  }
+  
+  .tracking-in {
+	animation: trackingIn 1s ease-out forwards;
+  }
+  
