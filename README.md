@@ -2,9 +2,6 @@
 
 CINEHIVE is an interactive and responsive platform tailored for movie enthusiasts to explore, browse, and manage their movie preferences seamlessly. By integrating The Movie Database (TMDB) API, the system provides real-time access to movie descriptions, trailers, and ratings, offering a modern alternative to traditional movie databases.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge)](https://your-live-demo-link.com) <!--- 👈 Replace with your deployment link! -->
-[![Repo](https://img.shields.io/badge/GitHub-Repo-blue?style=for-the-badge)](https://github.com/your-username/your-repo-name) <!--- 👈 Replace with your repo link! -->
-
 ---
 
 ### Table of Contents
@@ -46,43 +43,39 @@ The project emphasizes **usability, secure data management, and an aesthetically
 
 ## Screenshots
 
-<!-- 
-    INSTRUCTIONS: 
-    1. Create a folder named `screenshots` in your repository.
-    2. Add your images to that folder.
-    3. Replace the placeholder paths below with the correct paths to your images.
--->
-
 <table>
   <tr>
     <td align="center"><strong>1. Welcome / Landing Page</strong></td>
-    <td align="center"><strong>2. User Authentication (Login)</strong></td>
+    <td align="center"><strong>2. User Authentication (Sign Uo)</strong>
+    <td align="center"><strong>3. Login</strong></td>
   </tr>
   <tr>
-    <td><img src="https://via.placeholder.com/400x300.png?text=Welcome+Screen" alt="Welcome Screen"></td>
-    <td><img src="https://via.placeholder.com/400x300.png?text=Login+Screen" alt="Login Screen"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Sign_Page.png" alt="Welcome Screen"></td>
+     <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Sign_Page.png" alt="Sign Up Screen"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Login_Page.png" alt="Login Screen"></td>
   </tr>
   <tr>
     <td align="center"><strong>3. Movie Details Page</strong></td>
     <td align="center"><strong>4. Film Overview & Cast</strong></td>
   </tr>
   <tr>
-    <td><img src="https://via.placeholder.com/400x300.png?text=Movie+Details" alt="Movie Details"></td>
-    <td><img src="https://via.placeholder.com/400x300.png?text=Film+Overview" alt="Film Overview"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Movie_Details.png" alt="Movie Details"></td>
+     <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Browser_Page.png" alt="Features"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Film_Page.png" alt="Film Overview"></td>
   </tr>
   <tr>
     <td align="center"><strong>5. Browse & Filter by Genre</strong></td>
     <td align="center"><strong>6. User Watchlist Management</strong></td>
   </tr>
   <tr>
-    <td><img src="https://via.placeholder.com/400x300.png?text=Browse+and+Filter" alt="Browse and Filter"></td>
-    <td><img src="https://via.placeholder.com/400x300.png?text=User+Watchlist" alt="User Watchlist"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Genre.png" alt="Browse and Filter"></td>
+    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/User_WatchList.png" alt="User Watchlist"></td>
   </tr>
   <tr>
     <td align="center" colspan="2"><strong>7. User Favorites Management</strong></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><img src="https://via.placeholder.com/800x300.png?text=User+Favorites" alt="User Favorites"></td>
+    <td align="center" colspan="2"><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/User_Favourites.png" alt="User Favorites"></td>
   </tr>
 </table>
 
@@ -108,14 +101,9 @@ The system is built on a client-server architecture with a relational database m
 
 ### Database ERD
 
-<!-- 
-    INSTRUCTIONS: 
-    1. Add your ERD image to your `screenshots` folder.
-    2. Replace the placeholder path below.
--->
 
-![Database ERD](https://via.placeholder.com/800x400.png?text=Database+ERD)
-
+[Database ERD](./Pictures/ER_Diagram.png)
+ 
 ### Database Schema
 
 The database consists of four primary tables:
@@ -144,8 +132,8 @@ Make sure you have the following installed on your machine:
 
 1.  **Clone the repository:**
     ```sh
-    git clone https://github.com/your-username/your-repo-name.git
-    cd your-repo-name
+    git clone https://github.com/Dhiya-Natarajan/Movie-Catalogue.git
+    cd Movie-Catalogue
     ```
 
 2.  **Setup the Backend:**
