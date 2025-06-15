@@ -46,7 +46,7 @@ The project emphasizes **usability, secure data management, and an aesthetically
 <table>
   <tr>
     <td align="center"><strong>1. Welcome / Landing Page</strong></td>
-    <td align="center"><strong>2. User Authentication (Sign Uo)</strong>
+    <td align="center"><strong>2. User Authentication (Sign Up)</strong>
     <td align="center"><strong>3. Login</strong></td>
   </tr>
   <tr>
