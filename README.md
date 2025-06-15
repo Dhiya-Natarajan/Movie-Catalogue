@@ -17,8 +17,7 @@ CINEHIVE is an interactive and responsive platform tailored for movie enthusiast
 *   [API Integration](#api-integration)
 *   [Challenges & Solutions](#challenges--solutions)
 *   [Future Enhancements](#future-enhancements)
-*   [Contact](#contact)
-*   [License](#license)
+  
 
 ---
 
@@ -32,12 +31,23 @@ The project emphasizes **usability, secure data management, and an aesthetically
 
 ## Key Features
 
-✨ **Real-time Movie Data**: Integrates with the TMDB API for up-to-the-minute information on movies and TV shows, including descriptions, ratings, trailers, and cast details.
-🔐 **Secure User Authentication**: JWT-based authentication ensures user data is secure. Users can sign up, log in, and manage their sessions safely.
-❤️ **Personalized Favorites & Watchlist**: Logged-in users can add movies to a personal "Favorites" list and a separate "Watchlist" for future viewing.
-🎬 **Dynamic Movie Browsing & Discovery**: Browse movies by categories like "Now Playing," "Top Rated," and "Popular."
-🔍 **Advanced Search & Filtering**: A powerful search functionality allows users to find movies by title and filter results by genre.
-📱 **Responsive Design**: A modern UI built with React, Tailwind CSS, and Bootstrap ensures a seamless experience across all devices, from desktops to mobile phones.
+- **Real-time Movie Data**  
+  Integrates with the TMDB API for up-to-the-minute information on movies and TV shows, including descriptions, ratings, trailers, and cast details.
+
+- **Secure User Authentication**  
+  JWT-based authentication ensures user data is secure. Users can sign up, log in, and manage their sessions safely.
+
+- **Personalized Favorites & Watchlist**  
+  Logged-in users can add movies to a personal "Favorites" list and a separate "Watchlist" for future viewing.
+
+- **Dynamic Movie Browsing & Discovery**  
+  Browse movies by categories like "Now Playing," "Top Rated," and "Popular."
+
+- **Advanced Search & Filtering**  
+  A powerful search functionality allows users to find movies by title and filter results by genre.
+
+- **Responsive Design**  
+  A modern UI built with React, Tailwind CSS, and Bootstrap ensures a seamless experience across all devices, from desktops to mobile phones.
 
 ---
 
@@ -46,35 +56,34 @@ The project emphasizes **usability, secure data management, and an aesthetically
 <table>
   <tr>
     <td align="center"><strong>1. Welcome / Landing Page</strong></td>
-    <td align="center"><strong>2. User Authentication (Sign Up)</strong>
-    <td align="center"><strong>3. Login</strong></td>
+    <td align="center"><strong>2. User Authentication </strong>
   </tr>
   <tr>
-    <td><img src="./Pictures/Sign_Page.png" alt="Welcome Screen"></td>
-     <td><img src="./Pictures/Sign_Page.png" alt="Sign Up Screen"></td>
+    <td><img src="./Pictures/Sign_Page.png" alt="Welcome Screen"></td>    
     <td><img src="./Pictures/Login_Page.png" alt="Login Screen"></td>
   </tr>
   <tr>
     <td align="center"><strong>3. Movie Details Page</strong></td>
-    <td align="center"><strong>4. Film Overview & Cast</strong></td>
+    <td align="center"><strong>4. Trending Movies</strong></td>    
   </tr>
   <tr>
     <td><img src="./Pictures/Movie_Details.png" alt="Movie Details"></td>
-     <td><img src="./Pictures/Browser_Page.png" alt="Features"></td>
-    <td><img src="./Pictures/Film_Page.png" alt="Film Overview"></td>
+     <td><img src="./Pictures/Browser_Page.png" alt="Features"></td>    
   </tr>
   <tr>
     <td align="center"><strong>5. Browse & Filter by Genre</strong></td>
-    <td align="center"><strong>6. User Watchlist Management</strong></td>
+    <td align="center"><strong>6. Film Overview & Cast</strong></td>    
   </tr>
   <tr>
     <td><img src="./Pictures/Genre.png" alt="Browse and Filter"></td>
-    <td><img src="./Pictures/User_WatchList.png" alt="User Watchlist"></td>
+     <td><img src="./Pictures/Film_Page.png" alt="Film Overview"></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><strong>7. User Favorites Management</strong></td>
+     <td align="center"><strong>7. User Watchlist Management</strong></td>
+    <td align="center" colspan="2"><strong>8. User Favorites Management</strong></td>
   </tr>
   <tr>
+      <td><img src="./Pictures/User_WatchList.png" alt="User Watchlist"></td>
     <td align="center" colspan="2"><img src="./Pictures/User_Favourites.png" alt="User Favorites"></td>
   </tr>
 </table>
@@ -112,9 +121,6 @@ The database consists of four primary tables:
 *   `movies`: Acts as a local cache or reference for movies, though most data is fetched live from the TMDB API.
 *   `user_watchlist`: A junction table mapping users to the movies they've added to their watchlist (Many-to-Many relationship).
 *   `user_likes`: A junction table mapping users to the movies they've marked as favorites (Many-to-Many relationship).
-
-Foreign key constraints and indexes on `user_id` and `movie_id` are used to maintain data integrity and optimize query performance.
-
 ---
 
 ## Getting Started
