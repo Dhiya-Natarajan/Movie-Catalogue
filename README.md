@@ -50,32 +50,32 @@ The project emphasizes **usability, secure data management, and an aesthetically
     <td align="center"><strong>3. Login</strong></td>
   </tr>
   <tr>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Sign_Page.png" alt="Welcome Screen"></td>
-     <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Sign_Page.png" alt="Sign Up Screen"></td>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Login_Page.png" alt="Login Screen"></td>
+    <td><img src="./Pictures/Sign_Page.png" alt="Welcome Screen"></td>
+     <td><img src="./Pictures/Sign_Page.png" alt="Sign Up Screen"></td>
+    <td><img src="./Pictures/Login_Page.png" alt="Login Screen"></td>
   </tr>
   <tr>
     <td align="center"><strong>3. Movie Details Page</strong></td>
     <td align="center"><strong>4. Film Overview & Cast</strong></td>
   </tr>
   <tr>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Movie_Details.png" alt="Movie Details"></td>
-     <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Browser_Page.png" alt="Features"></td>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Film_Page.png" alt="Film Overview"></td>
+    <td><img src="./Pictures/Movie_Details.png" alt="Movie Details"></td>
+     <td><img src="./Pictures/Browser_Page.png" alt="Features"></td>
+    <td><img src="./Pictures/Film_Page.png" alt="Film Overview"></td>
   </tr>
   <tr>
     <td align="center"><strong>5. Browse & Filter by Genre</strong></td>
     <td align="center"><strong>6. User Watchlist Management</strong></td>
   </tr>
   <tr>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/Genre.png" alt="Browse and Filter"></td>
-    <td><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/User_WatchList.png" alt="User Watchlist"></td>
+    <td><img src="./Pictures/Genre.png" alt="Browse and Filter"></td>
+    <td><img src="./Pictures/User_WatchList.png" alt="User Watchlist"></td>
   </tr>
   <tr>
     <td align="center" colspan="2"><strong>7. User Favorites Management</strong></td>
   </tr>
   <tr>
-    <td align="center" colspan="2"><img src="/home/dhiya/Desktop/Movie-Catalogue/Pictures/User_Favourites.png" alt="User Favorites"></td>
+    <td align="center" colspan="2"><img src="./Pictures/User_Favourites.png" alt="User Favorites"></td>
   </tr>
 </table>
 
